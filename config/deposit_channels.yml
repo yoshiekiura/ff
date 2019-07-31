@@ -1,11 +1,13 @@
 - id: 200
   key: satoshi
   currency: btc
-  sort_order: 1
   min_confirm: 1
   max_confirm: 3
-- id: 600
-  key: ether
+  min_amount: 0.0001
+
+- id: 300
+  key: ethereum
   currency: eth
   min_confirm: 1
-  max_confirm: 6
+  max_confirm: 3
+  min_amount: 0.0001
